@@ -26,8 +26,10 @@ def solicitar_palabra():
     Solicita una palabra al jugador 1
     La palabra debe tener mínimo 5 caracteres y solo contener letras
     
-    Returns:
-        str: La palabra a adivinar en mayúsculas
+    Returns
+    -------
+    str
+        La palabra a adivinar en mayúsculas
     """
     # TODO: Implementar la función
     # - Usar un bucle while para repetir hasta que la palabra sea válida
@@ -55,11 +57,15 @@ def solicitar_letra(letras_usadas):
     Solicita una letra al jugador 2
     La letra debe ser válida (solo una letra) y no estar ya usada
     
-    Args:
-        letras_usadas (list): Lista de letras ya introducidas
+    Parameters
+    ----------
+    letras_usadas : list
+        Lista de letras ya introducidas
         
-    Returns:
-        str: La letra introducida en mayúsculas
+    Returns
+    -------
+    str
+        La letra introducida en mayúsculas
     """
     # TODO: Implementar la función
     # - Usar un bucle while para repetir hasta que la letra sea válida
@@ -94,10 +100,14 @@ def mostrar_estado(palabra_oculta, intentos, letras_usadas):
     """
     Muestra el estado actual del juego
     
-    Args:
-        palabra_oculta (str): La palabra con _ y letras adivinadas
-        intentos (int): Número de intentos restantes
-        letras_usadas (list): Lista de letras ya usadas
+    Parameters
+    ----------
+        palabra_oculta : str
+            La palabra con _ y letras adivinadas
+        intentos : int
+            Número de intentos restantes
+        letras_usadas : list
+            Lista de letras ya usadas
     """
     # TODO: Implementar la función
     # - Imprimir intentos restantes
@@ -114,13 +124,19 @@ def actualizar_palabra_oculta(palabra, palabra_oculta, letra):
     """
     Actualiza la palabra oculta revelando las apariciones de la letra
     
-    Args:
-        palabra (str): La palabra completa a adivinar
-        palabra_oculta (str): La palabra actual con _ y letras adivinadas
-        letra (str): La letra que se ha adivinado
+    Parameters
+    ----------
+        palabra : str
+            La palabra completa a adivinar
+        palabra_oculta : str
+            La palabra actual con _ y letras adivinadas
+        letra : str
+            La letra que se ha adivinado
         
-    Returns:
-        str: La palabra oculta actualizada
+    Returns
+    -------
+        str
+            La palabra oculta actualizada
     """
     # TODO: Implementar la función
     # - Recorrer la palabra original con un bucle for
