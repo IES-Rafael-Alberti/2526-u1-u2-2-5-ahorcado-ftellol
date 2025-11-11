@@ -1,3 +1,5 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/8lAzcOMh)
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=21506765&assignment_repo_type=AssignmentRepo)
 # Práctica: El Juego del Ahorcado
 
 ## Descripción
@@ -148,3 +150,18 @@ Profesor: revilofe
 
 ## Licencia
 Material educativo para uso académico
+
+## Cambio de Documentación
+Esta actividad requeria hacer un cambio de documentación, el juego del ahorcado tenía documentación tipo Doctrings de Google.
+
+Me he decidido por cambiarlo por otro tipo de documentación especificado en la tarea, el de cadenas de documentación NumPy/SciPy.
+
+## Debugger
+Debido a que el programa estaba terminado y debuggeado, he creado un error de forma intencionada para demostrar como sería el proceso de resolver un error.
+
+El error es que en lugar de guardar la palabra introducida como una cadena de texto, la convertí en una lista utilizando list.
+
+![Captura del error al debuggear](images/debug.png)
+
+Para localizar el error utilize el debugger, lo que hice fue ir poniendo puntos de ruptura y ejecutando el código paso a paso para ir comprobando cual era el fallo.
+De esta forma encontré que el error era el valor que tomaba la variable palabra y lo pase de list a str.
