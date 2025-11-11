@@ -150,3 +150,8 @@ Profesor: revilofe
 
 ## Licencia
 Material educativo para uso académico
+
+## Cambio de Documentación
+Esta actividad requeria hacer un cambio de documentación, el juego del ahorcado tenía documentación tipo Doctrings de Google.
+
+Me he decidido por cambiarlo por otro tipo de documentación especificado en la tarea, el de cadenas de documentación NumPy/SciPy.
