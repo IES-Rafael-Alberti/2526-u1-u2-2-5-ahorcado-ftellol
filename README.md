@@ -155,3 +155,13 @@ Material educativo para uso académico
 Esta actividad requeria hacer un cambio de documentación, el juego del ahorcado tenía documentación tipo Doctrings de Google.
 
 Me he decidido por cambiarlo por otro tipo de documentación especificado en la tarea, el de cadenas de documentación NumPy/SciPy.
+
+## Debugger
+Debido a que el programa estaba terminado y debuggeado, he creado un error de forma intencionada para demostrar como sería el proceso de resolver un error.
+
+El error es que en lugar de guardar la palabra introducida como una cadena de texto, la convertí en una lista utilizando list.
+
+![Captura del error al debuggear](images/debug.png)
+
+Para localizar el error utilize el debugger, lo que hice fue ir poniendo puntos de ruptura y ejecutando el código paso a paso para ir comprobando cual era el fallo.
+De esta forma encontré que el error era el valor que tomaba la variable palabra y lo pase de list a str.
